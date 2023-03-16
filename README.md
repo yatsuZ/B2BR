@@ -6,12 +6,19 @@
 
 Le projet 42 Born2beroot nous apprend à installer et configurer une machine virtuelle et explore les bases de l'administration système. Nous apprendrons les schémas de partitionnement, LVM, les protocoles de ligne de commande tels que SSH, la virtualisation, la sécurité du système grâce à sudo, les pare-feux et les politiques de mot de passe.
 
-## Status
-Fini: 14/03/2023.
+## Fin
 
-Grade: 100%.
+<p align="center">
+  <img src="https://github.com/yatsuZ/B2BR/blob/main/image/succesB2BR.png" alt="Born2beroot Note 3 tentative aux bout de la troisieme tentative 100%"/>
+</p>
+Fini: 14/03/2023.
+<br>
+Grade: 100%... au bout de la 3iem tentative ;-; &#x1F622;
 
 ## Prérequis
+<p align="left">
+  <img src="https://github.com/yatsuZ/B2BR/blob/main/image/Virtual-BOX-version.png" alt="version 6.6 virtual box"/>
+</p>
 * [Oracle VirtualBox](https://www.virtualbox.org/) (j'ai eu la version <strong>6.1</strong>).
 * [Debian](https://www.debian.org/distrib/netinst) (je l'ai fais avec la version <strong>11.6</strong>).
 * Espace disque libre suffisant. (Conseil : faire dans le dossier sgroinfre)

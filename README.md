@@ -42,4 +42,4 @@ Bonne lecture pour ce qui decouvre :smile:.
 Fais par yzaoui (MOI) : y.zaoui.pro@gmail.com
 <br>LinkedIn : [Yassine Zaoui](https://www.linkedin.com/in/yassine-zaoui-23b005229/)
 <br>
-Inspirais par le travail de [mcombeau](https://github.com/mcombeau/Born2beroot).
+Inspiré par le travail de [mcombeau](https://github.com/mcombeau/Born2beroot).

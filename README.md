@@ -16,11 +16,12 @@ Fini: 14/03/2023.
 Grade: 100%... au bout de la 3iem tentative ;-; &#x1F622;
 
 ## Prérequis
-<p align="left">
-  <img src="https://github.com/yatsuZ/B2BR/blob/main/image/Virtual-BOX-version.png" alt="version 6.6 virtual box"/>
+<p align="right">
+  <img src="https://github.com/yatsuZ/B2BR/blob/main/image/Virtual-BOX-version-pti.png" alt="version 6.6 virtual box"/>
 </p>
-* [Oracle VirtualBox](https://www.virtualbox.org/) (j'ai eu la version <strong>6.1</strong>).
-* [Debian](https://www.debian.org/distrib/netinst) (je l'ai fais avec la version <strong>11.6</strong>).
+
+* [Oracle VirtualBox](https://www.virtualbox.org/) (j'ai eu la version <strong>6.1</strong>).<br>
+* [Debian](https://www.debian.org/distrib/netinst) (je l'ai fais avec la version <strong>11.6</strong>).<br>
 * Espace disque libre suffisant. (Conseil : faire dans le dossier sgroinfre)
 
 ## Conseil

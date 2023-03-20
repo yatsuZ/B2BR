@@ -1,6 +1,6 @@
 # Début Installation
 
-Bonjour à tous ! Dans ce guide, je vais vous montrer comment j'ai réalisé la pré-installation et l'installation de ma machine virtuelle. J'espère que cela pourra vous aider dans vos propres projets. Alors, c'est parti ! :wink:
+Bonjour à tous ! Dans ce guide, je vais vous montrer comment j'ai réalisé la pré-installation et l'installation de ma machine virtuelle pour Born2BeRoot. J'espère que cela pourra vous aider dans vos propres projets. Alors, c'est parti ! :wink:
 
 ## Crée une VM avec Virtual Box
 1. Pour commencer, ouvrez VirtualBox et cliquez sur "New" pour créer une nouvelle machine virtuelle.
@@ -42,7 +42,28 @@ Image démonstratif pour chaque partie :
 
 ## Partionement 💀
 
+> La partie qui demandera le plus de temp pour linstallation :(
 1. Choisir le partionement Manuel
 2. Selectione le disque dur - ``SCSI (0,0,0) (sda)``
-3. Oui Cree une table de partition.
+3. ``Oui`` Partitionner les disques.
 
+### Création de partitions : /boot non chiffré et volumes logiques chiffrés
+
+> Sur le Disque dur nous allons cree deux partie 
+> 1. le boot non crypte, la partie qui soccupera du demarage du  pc si on crypte cette partie il ne pourra pas demarrer
+> 2. le reste qui sera crypte.
+
+voici comment faire appuyer sur:
+1. `pri/log xxGB Espace libre` >> `Créer une nouvelle partition` >> `500 MB` >> `Primaire` >> `Début` >> `Point de montage` >> `/boot` >> `Fin du paramétrage de cette partition`.
+> Voila là nous avons crée une partition de 500 MB pour le boot.
+> Maintenant voici poue le LVM qui est assez similaire juste les grand changement et lespace de stockage et le point de montage .
+
+2. `pri/log xxGB Espace libre` >> `Créer une nouvelle partition` >> `max` >> `Logique` >> `Début` >> `Fin du paramétrage de cette partition`.
+> Voila un schéma de lespace utilise 
+
+### Crypte 
+
+1. `Configurer les volumes chiffrés` >> `OUI`
+2. `Créer des volumes chiffrés` 
+3.  metre un mot de passe fort, !!! IL FAUDRE S EN SOUVENIR !!!
+4.  

@@ -78,20 +78,31 @@ Définissez les systèmes de fichiers et les points de montage pour chaque volum
 * Sous "LVM root",    ```#1 xxGB``` >> ```Utiliser comme``` >> ```Ext4``` >> ```Point de montage``` >> ```/``` >> ```Fin du ...```
 * Sous "LVM swap_1",  ```#1 xxGB``` >> ```Utiliser comme``` >> ```espace d´échange ("swap")``` >> ```Fin du ...```
 
-```Terminer le partitionement ...```
+[```Terminer le partitionement ...```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/LVM/Terminer.png)
 FIN du partitionage.
 
 ---
 
+## Finish Installation
+1. [```Non```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/FIN/analyse.png), pas besoin d'analyse.
+2. Choisire [```un pays```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/FIN/gestion_de_paquet_pays.png) &  [```un miriore```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/FIN/mirroire.png).
+3. [ne rien metre juste skip](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/FIN/pas_de_http.png).
+Si il y a [cas d'erreur](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/FIN/Erreur_depot.png) skip.
+4. ```Non```, pas besoin de setudy.
+5. [NE RIEN SELECTIONE !! important.](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/FIN/pas_de_logiciel.png)
+6. [```Oui```, installer le GRUB](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/FIN/Grub_install.png) >> selectionner ```/dev/sda```
+7. [```Continuer```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/FIN/FIN.png).
+
 ### Installation fini BRAVO!!!
 
-Entrer le mot de passe de cryptage quevous avez mis.
-Votre login ou root et mettre le mot de passe qui correspond.
+[Entrer le mot de passe de cryptage quevous avez mis.](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/FIN/cryptage_entrer.png)
+[Votre login ou root et mettre le mot de passe qui correspond.](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/FIN/login.png)
 
 A present Verifions le partitionement et que cela correspond bien avec ce que veux le sujet.
 ```bash
 $ lsblk
 ```
-
+resultat :
+<img src="https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/FIN/lsblk.png" alt="Resultat lsblk">
 ---
 Fais par yzaoui: y.zaoui.pro@gmail.com | LinkedIn: [Yassine Zaoui](https://www.linkedin.com/in/yassine-zaoui-23b005229/).

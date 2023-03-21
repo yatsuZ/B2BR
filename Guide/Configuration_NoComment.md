@@ -1,36 +1,42 @@
 # Fin d'instalation début de Configuration
-This guide covers the installation of sudo, UFW, SSH, Password Policy, monitoring.sh. There is also a fix for the common ERROR: Failed to send host log message.
+Avec ce guide nous ferons la mise en place des services:
+1. sudo
+2. UFW
+3. SSH
+4. Metre une politique de mot de passe fort
+5. Crée un script qui s'executera automatiquement.
 
-There is a [VM installation guide](https://github.com/mcombeau/Born2beroot/blob/main/guide/installation_debian.md) and a [bonus guide](https://github.com/mcombeau/Born2beroot/blob/main/guide/bonus_debian.md), as well.
+Si vous voulez savoir comment installer une VM , partition etc suivez [ce guide.](https://github.com/yatsuZ/B2BR/blob/main/Guide/Installation.md)
 
-## Sudo Setup
+## Sudo Configuration
 
-Log in as root:
+Avoir la session root:
 ```bash
 $ su root
 ```
 
-Install sudo:
+Installer sudo:
 ```bash
 # apt update
 # apt upgrade
 # apt install sudo
 ```
 
-Add user to sudo group:
+Aujouter l'user dans le groupe sudo:
 ```bash
 # sudo usermod -aG sudo <username>
 ```
-Then ```exit``` root session and ```exit``` again to return to login prompt. Log in again as user.
-Let's check if this user has sudo privileges:
+Retourner sur la session de votre utilisateur. Pour cela faite la commande ```exit```.
+Et verifions si votre user a à present le privilege sudo :
 ```bash
 $ sudo whoami
 ```
-It should answer ```root```. If not, modify sudoers file as explained below and add this line:
+La reponse devra etre ``root``. Sinon vous votre user n'as pas acces aux sudo il faudra ajouter cette ligne directement dans le fichier configuration du sudo:
 ```bash
 username  ALL=(ALL:ALL) ALL
 ```
-
+Pour y acceder au fichier de configuration du sudo (sudoers.tmp)
+---------------------------------------------------------------------------------------
 Edit sudoers.tmp file as root with the command:
 ```bash
 # sudo visudo

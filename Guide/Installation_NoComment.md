@@ -63,18 +63,18 @@ Image démonstratif pour chaque partie :
 
 ### LVM (Logical Volume Manager )
 
-1. ```Configurer le gestionnaire de volumes logiques (LVM)``` >> ```Oui```.
-3. ```Créer un groupe de volumes``` >> nommé : ```LVMGroup``` >> selectionner : ```/dev/mapper/sda5_crypt```.
+1. [```Configurer le gestionnaire de volumes logiques (LVM)```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/LVM/Configurer%20le%20gestionnaire%20de%20volumes%20logiques%20(LVM).png) >> [```Oui```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/LVM/oui_LVM.png).
+3. [```Créer un groupe de volumes```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/LVM/Creer%20un%20groupe%20de%20volumes.png) >> nommé : [```LVMGroup```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/LVM/nommr_LVMGroup.png) >> selectionner : [```/dev/mapper/sda5_crypt```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/LVM/selectionner%20sda5.png).
 
 Crée Volumes Logique:
-* ```Créer un volume logique``` >>  selectionner : ```LVMGroup``` >> nommé : ```root```     >> ```2G```
+* [```Créer un volume logique```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/LVM/afficher_les_detail_LVM.png) >>  selectionner : ```LVMGroup``` >> nommé : [```root```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/LVM/nomme.png)     >> [```2G```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/LVM/espace.png)
 * ```Créer un volume logique``` >>  selectionner : ```LVMGroup``` >> nommé : ```home```     >> ```3.8G```
 * ```Créer un volume logique``` >>  selectionner : ```LVMGroup``` >> nommé : ```swap_1```   >> ```973MB```
 
-Une fois fais, ```Afficher les détails de configuration``` pour verifier avec ce qui est demander dans le tp, apres cela ```Terminer```.
+Une fois fais, [```Afficher les détails de configuration```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/LVM/affichage_info.png) pour verifier avec ce qui est demander dans le tp, apres cela ```Terminer```.
 
 Définissez les systèmes de fichiers et les points de montage pour chaque volume logique :
-* Sous "LVM home",    ```#1 xxGB``` >> ```Utiliser comme``` >> ```Ext4``` >> ```Point de montage``` >> ```/home``` >> ```Fin du ...```
+* [Sous "LVM home",    ```#1 xxGB```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/LVM/cree_la_partie_Root.png) >> ```Utiliser comme``` >> [```Ext4```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/LVM/ext4.png) >> ```Point de montage``` >> ```/home``` >> ```Fin du ...```
 * Sous "LVM root",    ```#1 xxGB``` >> ```Utiliser comme``` >> ```Ext4``` >> ```Point de montage``` >> ```/``` >> ```Fin du ...```
 * Sous "LVM swap_1",  ```#1 xxGB``` >> ```Utiliser comme``` >> ```espace d´échange ("swap")``` >> ```Fin du ...```
 

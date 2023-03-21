@@ -43,7 +43,9 @@ Bonne lecture pour ce qui decouvre :smile:.
 ## Guide
 
 [Github Born2beroot Debian guide]():
-* [Installation](https://github.com/yatsuZ/B2BR/blob/main/Guide/Installation.md)
+* [Installation avec commentaire et explication](https://github.com/yatsuZ/B2BR/blob/main/Guide/Installation.md) 
+/ou/ 
+[Installation juste les commandes](https://github.com/yatsuZ/B2BR/blob/main/Guide/Installation_NoComment.md)
 * [Configuration](https://github.com/yatsuZ/B2BR/blob/main/Guide/Configuration.md)
 
 ---

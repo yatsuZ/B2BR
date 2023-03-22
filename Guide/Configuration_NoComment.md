@@ -3,8 +3,8 @@ Avec ce guide nous ferons la mise en place des services:
 1. sudo
 2. UFW
 3. SSH
-4. Metre une politique de mot de passe fort
-5. Crée un script qui s'executera automatiquement.
+4. Mettre une politique de mot de passe fort
+5. Créer un script qui s'executera automatiquement.
 
 Si vous voulez savoir comment installer une VM , partition etc suivez [ce guide.](https://github.com/yatsuZ/B2BR/blob/main/Guide/Installation.md)
 
@@ -26,20 +26,20 @@ Aujouter l'user dans le groupe sudo:
 ```bash
 # sudo usermod -aG sudo <username>
 ```
-Retourner sur la session de votre utilisateur. Pour cela faite la commande ```exit```.
+Retourner sur la session de votre utilisateur. Pour cela faites la commande ```exit```.
 Et verifions si votre user a à present le privilege sudo :
 ```bash
 $ sudo whoami
 ```
-La reponse devra etre ``root``. Sinon vous votre user n'as pas acces aux sudo il faudra ajouter cette ligne directement dans le fichier configuration du sudo:
+La réponse devra être ``root``. Sinon vous votre user n'a pas accès au sudo il faudra ajouter cette ligne directement dans le fichier configuration du sudo:
 ```bash
 username  ALL=(ALL:ALL) ALL
 ```
-Pour y acceder au fichier de configuration du sudo (sudoers.tmp) :
+Pour accéder au fichier de configuration du sudo (sudoers.tmp) :
 ```bash
 # sudo visudo
 ```
-Et ajouter les parametre pas defaut qui est demande dans le sujet :
+Et ajouter les paramètre pas defaut qui est demandé dans le sujet :
 ```bash
 Defaults  passwd_tries=3 #3 tentaive pour utilise le sudo
 Defaults  badpass_message="Wrong password. Try again!"# Message d'erreur pour mauvais mot de passe
@@ -77,7 +77,7 @@ $ sudo ufw allow <port>
 $ sudo ufw deny <port>
 ```
 
-Comment Suprimer les regles d'un port:
+Comment Supprimer les regles d'un port:
 ```bash
 $ sudo ufw delete allow <port>
 $ sudo ufw delete deny <port>
@@ -87,9 +87,9 @@ Voici une autre methode:
 $ sudo ufw status numbered
 $ sudo ufw delete <port index number>
 ```
-Attention avec cette deuxieme method, l'index change apres une suppression, verifier apres chaque supression l'index.
+Attention avec cette deuxième method, l'index change apres une suppression, verifier après chaque suppression l'index.
 
-Ce qu'il faut faire c'est davoir seulement le port 4242 en allow le resultat attendue :
+Il faut seulement le port 4242 en allow, voici le resultat attendu :
 ```bash
 To                         Action      From
 --                         ------      ----
@@ -112,7 +112,7 @@ Verifier le status de SSH:
 $ sudo systemctl status ssh
 ```
 
-Changer le port d'ecoute de SSH pour metre le port 4242,
+Changer le port d'écoute de SSH pour mettre le port 4242,
 aller au fichier de configuration de ssh : 
 ```bash
 $ sudo nano /etc/ssh/sshd_config
@@ -121,12 +121,12 @@ trouver cette ligne:
 ```bash
 #Port 22
 ```
-Il faut la décommenter en suprimons # et changer 22 par 4242:
+Il faut la décommenter en supprimant '#' et changer 22 par 4242:
 ```bash
 Port 4242
 ```
 
-!! Re activer le service SSH pour metre le nouveaux port:
+!! Re activer le service SSH pour mettre le nouveau port:
 ```bash
 $ sudo systemctl restart ssh
 ```
@@ -138,7 +138,7 @@ Redirigez le port hôte 4243 vers le port invité 4242 : dans VirtualBox,
 
 Re activer le service SSH apres changement.
 
-Verifions si cela marche pour cela nous allons essaye de nous connecter depuis le terminal du PC :
+Verifions si cela marche pour cela nous allons essayer de nous connecter depuis le terminal du PC :
 ```bash
 $ ssh <username>@localhost -p 4243"
 ```
@@ -146,14 +146,14 @@ Ou:
 ```bash
 $ ssh <username>@<l'adresse ip de la VM> -p 4243
 ```
-Pour quiter la connection ssh faite la commande ```exit```.
+Pour quitter la connection ssh faites la commande ```exit```.
 
 Verifier que vous ne pouvez pas vous connecter en tant que root,
-Pour cela  faite :
+Pour cela  faites :
 ```bash
 $ ssh root@<localhost -p 4243
 ```
-essaye de metre votre code et si il vous dis acces refuser ou denied c'est bon alors.
+essaye de metre votre code et s'il vous dis accès refuser ou denied, alors c'est bon.
 
 Partie SSH Fini.
  
@@ -164,7 +164,7 @@ PASS_MAX_DAYS 30 # tout les 30 jour un nouveaux mot de passe
 PASS_MIN_DAYS 2 # Vous pouvez changer un mot de passe seulement tout les 2 jour
 PASS_WARN_AGE 7 # Une alerte sera envoyer 7 jour avant la date de changement de mot de passe
 ```
-Ces changement seront apliquer automatiquement mais pas utilisateur deja crée et au root donc il faut apliquer ces changement aux utilisateur et root :
+Ces changement seront apliquer automatiquement mais pas pour l'utilisateur deja crée et le root donc il faudra apliquer ces changement à utilisateur et au root :
 ```bash
 $ sudo chage -M 30 <username/root>
 $ sudo chage -m 2 <username/root>
@@ -172,12 +172,12 @@ $ sudo chage -W 7 <username/root>
 ```
 Utilise ```chage -l <username/root>``` Pour verfier les changement.
 
-Install une bibliotheque qui verifie la politique de mot de passe:
+Installe une bibliotheque qui verifie la politique de mot de passe:
 ```bash
 $ sudo apt install libpam-pwquality
 ```
 
-Alons, configuere le ```/etc/security/pwquality.conf``` voila ce qu'il faudra metre:
+Allons, configuerer le ```/etc/security/pwquality.conf``` voila ce qu'il faudra mettre:
 ``` bash
 ...
 ...
@@ -202,7 +202,7 @@ retry = 3
 enforce_for_root
 # ...
 ```
-A present essaye de verifier que chaque condition marche en changeant votre mot de passe user
+A présent essayez de verifier que chaque condition fonctionne en changeant le mot de passe de l'user
 ```bash
 $ sudo passwd <user/root>
 ```
@@ -210,7 +210,7 @@ FIN de la politique de mot de passe.
 
 ## Hostname, Users et Groups
 
-Le hostname devra etre ```your_intra_login42```, mais le Hostname sera vouer à etre changer durant le présentation. voila la commande qui permet de change le host:
+Le hostname devra être ```your_intra_login42```, mais le Hostname sera voué à etre changé durant le présentation. voila la commande qui permet de change le host:
 ```bash
 $ sudo hostnamectl set-hostname <new_hostname> 
 $ hostnamectl status
@@ -240,16 +240,16 @@ Avant la presentation :
 4. votre utilisateur devra etre dans ```user42``` et ```sudo```
 Pendant la presentation :
 Modifier le hostname
-cree un user 
+créer un user 
 ...
-Je me souviens que de sa mais pas de panique vous verrez lors de la presentation.
+Je me souviens que de ça, mais pas de panique vous verrez lors de la presentation.
 
 FIN du group hostanme etc.
 
 ## Monitoring.sh
 Ecrire [```monitoring.sh```](https://github.com/yatsuZ/B2BR/blob/main/monitoring.sh) ou le placer je ne sais pas.
 
-Donner le droit dexecution aux monotoring.sh
+Donner le droit d'execution aux monotoring.sh
 ```bash
 chmod 755 monitoring.sh
 ```
@@ -274,7 +274,7 @@ Ou, si la commande wall n'est pas intégrée au script:
 ```bash
 */10 * * * * bash <path>/monitoring.sh | wall`
 ```
-À partir de là, ```monitoring.sh``` sera exécuté toutes les 10 minutes. Pour qu'il s'exécute toutes les dix minutes **à partir du démarrage du système**, On peut cree un script [```sleep.sh```](https://github.com/yatsuZ/B2BR/blob/main/sleep.sh) script qui calcule le délai entre l'heure de démarrage du serveur et la dixième minute de l'heure, puis ajoutez-le `au travail cron pour appliquer le délai.
+À partir de là, ```monitoring.sh``` sera exécuté toutes les 10 minutes. Pour qu'il s'exécute toutes les dix minutes **à partir du démarrage du système**, On peut crée un script [```sleep.sh```](https://github.com/yatsuZ/B2BR/blob/main/sleep.sh) script qui calcule le délai entre l'heure de démarrage du serveur et la dixième minute de l'heure, puis ajoutez-le `au travail cron pour appliquer le délai.
 ```bash
 */10 * * * * bash /root/sleep.sh && bash /root/monitoring.sh
 ```
@@ -302,4 +302,4 @@ Utilisez ensuite la commande suivante (remplacez ```centos_serv``` par le nom de
 
 Et enregistrez la signature dans un fichier nommé ```signature.txt```.
 ---
-Fais par yzaoui: y.zaoui.pro@gmail.com | LinkedIn: [Yassine Zaoui](https://www.linkedin.com/in/yassine-zaoui-23b005229/)
+Fait par yzaoui: y.zaoui.pro@gmail.com | LinkedIn: [Yassine Zaoui](https://www.linkedin.com/in/yassine-zaoui-23b005229/)

@@ -8,11 +8,11 @@ Le projet 42 Born2beroot nous apprend à installer et configurer une machine vir
 ## Fin
 
 <p align="center">
-  <img src="https://github.com/yatsuZ/B2BR/blob/main/image/Succes/succesB2BR.png" alt="Born2beroot Note 3 tentative aux bout de la troisieme tentative 100%"/>
+  <img src="https://github.com/yatsuZ/B2BR/blob/main/image/Succes/succesB2BR.png" alt="Born2beroot Note 3 tentatives au bout de la troisième tentative 100%"/>
 </p>
 Fini: 14/03/2023.
 <br>
-Grade: 100%... au bout de la 3iem tentative ;-; &#x1F622;
+Grade: 100%... au bout de la 3ème tentative ;-; &#x1F622;
 
 ## Prérequis
 <p align="center">
@@ -20,7 +20,7 @@ Grade: 100%... au bout de la 3iem tentative ;-; &#x1F622;
 </p>
 
 * [Oracle VirtualBox](https://www.virtualbox.org/) (j'ai eu la version <strong>6.1</strong>).<br>
-* [Debian](https://www.debian.org/distrib/netinst) (je l'ai fais avec la version <strong>11.6</strong>).<br>
+* [Debian](https://www.debian.org/distrib/netinst) (je l'ai fait avec la version <strong>11.6</strong>).<br>
 * Espace disque libre suffisant. (Conseil : faire dans le dossier sgroinfre)
 
 ## Conseil
@@ -36,17 +36,17 @@ En ce qui concerne le projet B2BR, c'est un projet qui nous permet de découvrir
 3. Faites une feuille de récapitulation pour vous-même pour vous rappeler les étapes que vous avez effectuées.
 <br>*C'est pour cette raison que je crée ce Git :wink:.*
 
-Bonne lecture pour ce qui decouvre :smile:.
+Bonne lecture pour ceux qui decouvrent :smile:.
 
 ---
 ## Guide
 
 [Github Born2beroot Debian guide]():
 * [Installation avec commentaire et explication](https://github.com/yatsuZ/B2BR/blob/main/Guide/Installation.md) oú j'explique mes experience et justifie mes action.<br>OU<br>[Installation juste les etapes a suivre](https://github.com/yatsuZ/B2BR/blob/main/Guide/Installation_NoComment.md).
-* [Configuration avec commentaire et explication](https://github.com/yatsuZ/B2BR/blob/main/Guide/Configuration.md) oú j'explique mes experience et justifie mes action.<br>OU<br>[Configuration juste les etapes a suivre](https://github.com/yatsuZ/B2BR/blob/main/Guide/Configuration_NoComment.md)
+* [Configuration avec commentaire et explication](https://github.com/yatsuZ/B2BR/blob/main/Guide/Configuration.md) oú j'explique mes experiences et justifie mes actions.<br>OU<br>[Configuration juste les étapes à suivre](https://github.com/yatsuZ/B2BR/blob/main/Guide/Configuration_NoComment.md)
 
 ---
-Fais par yzaoui (MOI) : y.zaoui.pro@gmail.com
+Fait par yzaoui (MOI) : y.zaoui.pro@gmail.com
 <br>LinkedIn : [Yassine Zaoui](https://www.linkedin.com/in/yassine-zaoui-23b005229/)
 <br>
 Inspiré par le travail de [mcombeau](https://github.com/mcombeau/Born2beroot).

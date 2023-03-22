@@ -57,7 +57,7 @@ Image démonstratif pour chaque partie :
 
 1. [`Configurer les volumes chiffrés`](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/Cryptage/Configurer_les_volumes_chiffre.png) >> `OUI`
 2. [`Créer des volumes chiffrés`](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/Cryptage/Creer_des_volumes_chiffre.png)
-3.  [Chosir `sda5`](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/Cryptage/selectione_sda5.png), car ce n'est que cette partie que l'on shouaite crypte.
+3.  [Chosir `sda5`](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/Cryptage/selectione_sda5.png), car ce n'est que cette partie que l'on shouaite crypter.
 4.  [`Terminer`](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/Cryptage/Terminer_cryptage.png) >[`Fin du paramétrage`](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/Cryptage/Fin_du%20parametrage.png) >`Oui` 
 5.  Mettre un mot de passe fort, !!! IL FAUDRE S'EN SOUVENIR !!!
 
@@ -71,7 +71,7 @@ Créer Volumes Logique:
 * ```Créer un volume logique``` >>  selectionner : ```LVMGroup``` >> nommé : ```home```     >> ```3.8G```
 * ```Créer un volume logique``` >>  selectionner : ```LVMGroup``` >> nommé : ```swap_1```   >> ```973MB```
 
-Une fois fais, [```Afficher les détails de configuration```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/LVM/affichage_info.png) pour verifier avec ce qui est demander dans le tp, apres ça -> ```Terminer```.
+Une fois fait, [```Afficher les détails de configuration```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/LVM/affichage_info.png) pour verifier avec ce qui est demander dans le tp, apres ça -> ```Terminer```.
 
 Définissez les systèmes de fichiers et les points de montage pour chaque volume logique :
 * [Sous "LVM home",    ```#1 xxGB```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/LVM/cree_la_partie_Root.png) >> ```Utiliser comme``` >> [```Ext4```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/LVM/ext4.png) >> ```Point de montage``` >> ```/home``` >> ```Fin du ...```

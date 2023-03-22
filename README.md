@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://github.com/mcombeau/mcombeau/blob/main/42_badges/born2beroote.png" alt="Born2beroot 42 project badge"/>
 </p>
-
+kk prout
 Le projet 42 Born2beroot nous apprend à installer et configurer une machine virtuelle et explore les bases de l'administration système. Nous apprendrons les schémas de partitionnement, LVM, les protocoles de ligne de commande tels que SSH, la virtualisation, la sécurité du système grâce à sudo, les pare-feux et les politiques de mot de passe.
 
 ## Fin

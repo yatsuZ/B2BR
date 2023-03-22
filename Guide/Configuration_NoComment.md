@@ -89,8 +89,13 @@ $ sudo ufw delete <port index number>
 ```
 Attention avec cette deuxieme method, l'index change apres une suppression, verifier apres chaque supression l'index.
 
-Ce qu'il faut faire c'est davoir seulement le port 4242 en allow et deny voila le resultat attendue :
-(regarde quelle est mon resulat sur ma vm pour etre sure).
+Ce qu'il faut faire c'est davoir seulement le port 4242 en allow le resultat attendue :
+```bash
+To                         Action      From
+--                         ------      ----
+4242                       ALLOW       Anywhere                  
+4242 (v6)                  ALLOW       Anywhere (v6) 
+```
 
 FIN d'UFW
 
@@ -262,14 +267,14 @@ Démarrez ensuite un fichier crontab pour root :
 # crontab -e
 ```
 Et ajoutez comme ceci:
-```bash
+```bash`
 */10 * * * * bash <path>/monitoring.sh
 ```
 Ou, si la commande wall n'est pas intégrée au script:
 ```bash
-*/10 * * * * bash <path>/monitoring.sh | wall
+*/10 * * * * bash <path>/monitoring.sh | wall`
 ```
-À partir de là, ```monitoring.sh``` sera exécuté toutes les 10 minutes. Pour qu'il s'exécute toutes les dix minutes **à partir du démarrage du système**, On peut cree un script [```sleep.sh```](https://github.com/yatsuZ/B2BR/blob/main/sleep.sh) script qui calcule le délai entre l'heure de démarrage du serveur et la dixième minute de l'heure, puis ajoutez-le au travail cron pour appliquer le délai.
+À partir de là, ```monitoring.sh``` sera exécuté toutes les 10 minutes. Pour qu'il s'exécute toutes les dix minutes **à partir du démarrage du système**, On peut cree un script [```sleep.sh```](https://github.com/yatsuZ/B2BR/blob/main/sleep.sh) script qui calcule le délai entre l'heure de démarrage du serveur et la dixième minute de l'heure, puis ajoutez-le `au travail cron pour appliquer le délai.
 ```bash
 */10 * * * * bash /root/sleep.sh && bash /root/monitoring.sh
 ```

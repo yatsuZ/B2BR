@@ -9,15 +9,15 @@ Le projet 42 Born2beroot nous apprend à installer et configurer une machine vir
 ## Fin
 
 <p align="center">
-  <img src="https://github.com/yatsuZ/B2BR/blob/main/image/succesB2BR.png" alt="Born2beroot Note 3 tentative aux bout de la troisieme tentative 100%"/>
+  <img src="https://github.com/yatsuZ/B2BR/blob/main/image/Succes/succesB2BR.png" alt="Born2beroot Note 3 tentative aux bout de la troisieme tentative 100%"/>
 </p>
 Fini: 14/03/2023.
 <br>
 Grade: 100%... au bout de la 3iem tentative ;-; &#x1F622;
 
 ## Prérequis
-<p align="right">
-  <img src="https://github.com/yatsuZ/B2BR/blob/main/image/Virtual-BOX-version-pti.png" alt="version 6.6 virtual box"/>
+<p align="center">
+  <img src="https://github.com/yatsuZ/B2BR/blob/main/image/Succes/Virtual-BOX-version-pti.png" alt="version 6.6 virtual box"/>
 </p>
 
 * [Oracle VirtualBox](https://www.virtualbox.org/) (j'ai eu la version <strong>6.1</strong>).<br>
@@ -43,12 +43,8 @@ Bonne lecture pour ce qui decouvre :smile:.
 ## Guide
 
 [Github Born2beroot Debian guide]():
-* [Installation avec commentaire et explication](https://github.com/yatsuZ/B2BR/blob/main/Guide/Installation.md) 
-/ou/ 
-[Installation juste les etapes a suivre](https://github.com/yatsuZ/B2BR/blob/main/Guide/Installation_NoComment.md)
-* [Configuration avec commentaire et explication](https://github.com/yatsuZ/B2BR/blob/main/Guide/Configuration.md)
-/ou/
-[Configuration juste les etapes a suivre](https://github.com/yatsuZ/B2BR/blob/main/Guide/Configuration_NoComment.md)
+* [Installation avec commentaire et explication](https://github.com/yatsuZ/B2BR/blob/main/Guide/Installation.md) oú j'explique mes experience et justifie mes action.<br>OU<br>[Installation juste les etapes a suivre](https://github.com/yatsuZ/B2BR/blob/main/Guide/Installation_NoComment.md).
+* [Configuration avec commentaire et explication](https://github.com/yatsuZ/B2BR/blob/main/Guide/Configuration.md) oú j'explique mes experience et justifie mes action.<br>OU<br>[Configuration juste les etapes a suivre](https://github.com/yatsuZ/B2BR/blob/main/Guide/Configuration_NoComment.md)
 
 ---
 Fais par yzaoui (MOI) : y.zaoui.pro@gmail.com

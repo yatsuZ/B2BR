@@ -42,8 +42,8 @@ Bonne lecture pour ceux qui decouvrent :smile:.
 ## Guide
 
 [Github Born2beroot Debian guide]():
-* [Installation avec commentaire et explication](https://github.com/yatsuZ/B2BR/blob/main/Guide/Installation.md) oú j'explique mes experience et justifie mes action.<br>OU<br>[Installation juste les etapes a suivre](https://github.com/yatsuZ/B2BR/blob/main/Guide/Installation_NoComment.md).
-* [Configuration avec commentaire et explication](https://github.com/yatsuZ/B2BR/blob/main/Guide/Configuration.md) oú j'explique mes experiences et justifie mes actions.<br>OU<br>[Configuration juste les étapes à suivre](https://github.com/yatsuZ/B2BR/blob/main/Guide/Configuration_NoComment.md)
+* [Installation avec commentaire et explication](https://github.com/yatsuZ/B2BR/blob/main/Guide/Installation.md) où j'explique mes experience et justifie mes action.<br>OU<br>[Installation juste les etapes a suivre](https://github.com/yatsuZ/B2BR/blob/main/Guide/Installation_NoComment.md).
+* [Configuration avec commentaire et explication](https://github.com/yatsuZ/B2BR/blob/main/Guide/Configuration.md) où j'explique mes experiences et justifie mes actions.<br>OU<br>[Configuration juste les étapes à suivre](https://github.com/yatsuZ/B2BR/blob/main/Guide/Configuration_NoComment.md)
 
 ---
 Fait par yzaoui (MOI) : y.zaoui.pro@gmail.com

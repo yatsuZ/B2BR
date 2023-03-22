@@ -98,11 +98,11 @@ Si il y a [cas d'erreur](https://github.com/yatsuZ/B2BR/blob/main/image/Installa
 [Entrer le mot de passe de cryptage quevous avez mis.](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/FIN/cryptage_entrer.png)
 [Votre login ou root et mettre le mot de passe qui correspond.](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/FIN/login.png)
 
-A present Verifions le partitionement et que cela correspond bien avec ce que veut le sujet.
+A present, verifions le partitionement et que cela correspond bien avec ce que veut le sujet.
 ```bash
 $ lsblk
 ```
 resultat :
 <img src="https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/FIN/lsblk.png" alt="Resultat lsblk">
 ---
-Fais par yzaoui: y.zaoui.pro@gmail.com | LinkedIn: [Yassine Zaoui](https://www.linkedin.com/in/yassine-zaoui-23b005229/).
+Fait par yzaoui: y.zaoui.pro@gmail.com | LinkedIn: [Yassine Zaoui](https://www.linkedin.com/in/yassine-zaoui-23b005229/).

@@ -25,7 +25,7 @@ Grade: 100%... au bout de la 3ème tentative ;-; &#x1F622;
 
 ## Conseil
 
-En ce qui concerne le projet B2BR, c'est un projet qui nous permet de découvrir les machines virtuelles et qui demande de faire des recherches, ce qui peut être fastidieux pour ceux qui n'apprécient pas l'infra, les VM etc (ce qui est mon cas (JAIME LE DEV:heart:)). Voici mes conseils :
+En ce qui concerne le projet B2BR, c'est un projet qui nous permet de découvrir les machines virtuelles et qui demande de faire des recherches, ce qui peut être fastidieux pour ceux qui n'apprécient pas l'infra, les VM etc (ce qui est mon cas (J'AIME LE DEV:heart:)). Voici mes conseils :
 
 1. Prenez des snapshots pour pouvoir revenir en arrière en cas d'erreur:warning:.
 <br>*C'est comme un point de contrôle qui vous permet de sauvegarder votre travail et de revenir en arrier en cas d'erreurs.*

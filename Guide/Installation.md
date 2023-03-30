@@ -21,7 +21,9 @@ Bonjour à tous ! Dans ce guide, je vais vous montrer comment j'ai réalisé la 
 
 7.  10 à 13 GB est sufisant.
 
-8. FIN de la préconfiguration. 
+8. Pour ajouter l'ISO de Debian, cliquez sur "Settings", puis sur "Storage", sélectionnez "Add Optical Drive", naviguez vers l'emplacement de votre ISO, puis cliquez sur "Entrer".
+
+9. FIN de la préconfiguration. 
 
 Image démonstrative pour chaque partie :
 [1](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/Preconfiguration/appuyer_sur_new_pour_cree_VM.png), [2](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/Preconfiguration/Nomme_laVM_LaSituer_ET_definir_L_os.png), [3](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/Preconfiguration/taille_de_la_RAM.png), [4](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/Preconfiguration/Cree_un_Disk_virtuel.png), [5](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/Preconfiguration/Type_de_disk.png), [6](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/Preconfiguration/Memoir_dynamique.png), [7](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/Preconfiguration/Taille_de_la_memoir.png).

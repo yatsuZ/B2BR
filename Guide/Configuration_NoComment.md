@@ -302,4 +302,18 @@ Utilisez ensuite la commande suivante (remplacez ```centos_serv``` par le nom de
 
 Et enregistrez la signature dans un fichier nommé ```signature.txt```.
 ---
-Fait par yzaoui: y.zaoui.pro@gmail.com | LinkedIn: [Yassine Zaoui](https://www.linkedin.com/in/yassine-zaoui-23b005229/)
+
+## Auteur ->
+
+Ce projet a été réalisé par MOI !!! :smiley:
+
+| Info          | Ou me retrouver                                                      |
+| ------------- | -------------------------------------------------------------------- |
+| Nom👋         | Zaoui                                                                |
+| Prenom😄      | Yassine                                                              |
+| Pseudo😁      | Yatsu                                                                |
+| Login 42🏫    | Yzaoui                                                               |
+| E-mail📬      | y.zaoui.pro@gmail.com                                                |
+| E-mail42📩    | yzaoui@student.42.fr                                                 |
+| Linkdin👨‍💻     | [Yassine Zaoui](https://www.linkedin.com/in/yassine-zaoui-23b005229/)|
+| Instagram📸   | [@yatsu__officiel](https://www.instagram.com/yatsu__officiel/)       |

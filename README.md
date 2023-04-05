@@ -22,7 +22,7 @@ Grade: 100%... au bout de la 3ème tentative ;-; &#x1F622;
 </p>
 
 * [Oracle VirtualBox](https://www.virtualbox.org/) (j'ai eu la version <strong>6.1</strong>).<br>
-* [Debian](https://www.debian.org/distrib/netinst) (je l'ai fait avec la version <strong>11.6</strong>).<br>
+* [Debian](https://www.debian.org/distrib/netinst) (je l'ai fait avec la version <strong>11.6</strong>).
 * Espace disque libre suffisant. (Conseil : faire dans le dossier sgroinfre)
 
 ## Conseil
@@ -41,23 +41,30 @@ En ce qui concerne le projet B2BR, c'est un projet qui nous permet de découvrir
 Bonne lecture pour ceux qui decouvrent :smile:.
 
 ---
+
 ## Guide
 
 Github Born2beroot Debian guide:
 
 1. L'Instalation :
 
-- [Avec commentaire et explication.](https://github.com/yatsuZ/B2BR/blob/main/Guide/Installation.md)
+* [Avec commentaire et explication.](https://github.com/yatsuZ/B2BR/blob/main/Guide/Installation.md)
 
-- [Avec le minimum de Texte pour aller droit à l'essenciel.](https://github.com/yatsuZ/B2BR/blob/main/Guide/Installation_NoComment.md).
+* [Avec le minimum de Texte pour aller droit à l'essenciel.](https://github.com/yatsuZ/B2BR/blob/main/Guide/Installation_NoComment.md).
 
 2. La Configuration :
 
-- [Configuration avec commentaire et explication.](https://github.com/yatsuZ/B2BR/blob/main/Guide/Configuration.md)
+* [Configuration avec commentaire et explication.](https://github.com/yatsuZ/B2BR/blob/main/Guide/Configuration.md)
 
-- [Avec le minimum de Texte pour aller droit à l'essenciel](https://github.com/yatsuZ/B2BR/blob/main/Guide/Configuration_NoComment.md)
+* [Avec le minimum de Texte pour aller droit à l'essenciel](https://github.com/yatsuZ/B2BR/blob/main/Guide/Configuration_NoComment.md)
 
 ---
+
+## Ce que pouvez faire
+
+Si vous voyez des erreurs par rapport au github que ce soit, orthographes manipulation ou autre n'hésité pas de me faire part du problème (concernant le github bien sûr). En me contactant.
+
+Si vous avez aimé mon travail, vous pouvez mètre une étoile ou un like ou message ça fera toujours plaisir et JE VOUS REMERCIE D'AVOIR LU CE GIT :D.
 
 ## Auteur ->
 

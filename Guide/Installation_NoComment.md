@@ -6,7 +6,7 @@ Bonjour à tous ! Dans ce guide, je vais vous montrer comment j'ai réalisé la 
 
 1. Pour commencer, ouvrez VirtualBox et cliquez sur "New" pour créer une nouvelle machine virtuelle.
 
-2. Nommé votre VM. Placer la VM là où il y a sufisament d'espace⚠️. Pour le Type, choisissez "Linux" la Version, "Debian 64".
+2. Nommé votre VM. Placer la VM là où il y a suffisamment d'espace⚠️. Pour le Type, choisissez "Linux" la Version, "Debian 64".
 
 3. 1024MB de memoir sa sera bon.
 
@@ -16,7 +16,7 @@ Bonjour à tous ! Dans ce guide, je vais vous montrer comment j'ai réalisé la 
 
 6. Allouer de la mémoire dynamique.
 
-7. 10 à 13 GB est sufisant.
+7. 10 à 13 GB est suffisant.
 
 8. FIN de la préconfiguration.
 
@@ -27,9 +27,9 @@ Image démonstratif pour chaque partie :
 
 1. Cliquez sur Install.
 
-2. Choisir la langue + Choisir la situation Geographique + Choisir la bonne compossition de clavier
+2. Choisir la langue + Choisir la situation Géographique + Choisir la bonne composition de clavier
 
-3. Le nom de la machine devra etre ```login42``` (exemple: ```yzaoui42```)
+3. Le nom de la machine devra être ```login42``` (exemple: ```yzaoui42```)
 
 4. Pas de domaine next vide
 
@@ -37,11 +37,11 @@ Image démonstratif pour chaque partie :
 
 6. Créer un nouveau utilisateur, le nom d'utilisateur sera votre `login` (exemple:`yzaoui`)
 
-7. Mettre <strong>un mot de passe dur</strong> sans utilise le nom du login.
+7. Mettre <strong>un mot de passe dur</strong> sans utiliser le nom du login.
 
-## Partitionement
+## Partitionnement
 
-1. Choisir le partitionement Manuel
+1. Choisir le partitionnement Manuel
 
 2. Selectione le disque dur - [``SCSI (0,0,0) (sda)``](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/partition/SCSI3.png)
 
@@ -59,7 +59,7 @@ Image démonstratif pour chaque partie :
 2. [`Créer des volumes chiffrés`](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/Cryptage/Creer_des_volumes_chiffre.png)
 3. [Chosir `sda5`](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/Cryptage/selectione_sda5.png), car ce n'est que cette partie que l'on shouaite crypter.
 4. [`Terminer`](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/Cryptage/Terminer_cryptage.png) >[`Fin du paramétrage`](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/Cryptage/Fin_du%20parametrage.png) >`Oui`
-5. Mettre un mot de passe fort, !!! IL FAUDRE S'EN SOUVENIR !!!
+5. Mettre un mot de passe fort, !!! IL FAUDRA S'EN SOUVENIR !!!
 
 ### LVM (Logical Volume Manager )
 
@@ -69,8 +69,8 @@ Image démonstratif pour chaque partie :
 Créer Volumes Logique:
 
 * [```Créer un volume logique```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/LVM/afficher_les_detail_LVM.png) >>  selectionner : ```LVMGroup``` >> nommé : [```root```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/LVM/nomme.png)     >> [```2G```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/LVM/espace.png)
-* ```Créer un volume logique``` >>  selectionner : ```LVMGroup``` >> nommé : ```home```     >> ```3.8G```
-* ```Créer un volume logique``` >>  selectionner : ```LVMGroup``` >> nommé : ```swap_1```   >> ```973MB```
+* ```Créer un volume logique``` >>  sélectionner : ```LVMGroup``` >> nommé : ```home```     >> ```3.8G```
+* ```Créer un volume logique``` >>  sélectionner : ```LVMGroup``` >> nommé : ```swap_1```   >> ```973MB```
 
 Une fois fait, [```Afficher les détails de configuration```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/LVM/affichage_info.png) pour verifier avec ce qui est demander dans le tp, apres ça -> ```Terminer```.
 
@@ -81,7 +81,7 @@ Définissez les systèmes de fichiers et les points de montage pour chaque volum
 * Sous "LVM swap_1",  ```#1 xxGB``` >> ```Utiliser comme``` >> ```espace d´échange ("swap")``` >> ```Fin du ...```
 
 [```Terminer le partitionement ...```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/LVM/Terminer.png)
-FIN du partitionage.
+FIN du partitionnement.
 
 ---
 
@@ -89,10 +89,10 @@ FIN du partitionage.
 
 1. [```Non```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/FIN/analyse.png), pas besoin d'analyse.
 2. Choisir [```un pays```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/FIN/gestion_de_paquet_pays.png) &  [```un miriore```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/FIN/mirroire.png).
-3. [ne rien metre juste skip](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/FIN/pas_de_http.png).
+3. [ne rien mettre juste skip](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/FIN/pas_de_http.png).
 Si il y a [cas d'erreur](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/FIN/Erreur_depot.png) skip.
 4. ```Non```, pas besoin de setudy.
-5. [NE RIEN SELECTIONER !! important.](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/FIN/pas_de_logiciel.png)
+5. [NE RIEN SÉLECTIONNER !! important.](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/FIN/pas_de_logiciel.png)
 6. [```Oui```, installer le GRUB](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/FIN/Grub_install.png) >> selectionner ```/dev/sda```
 7. [```Continuer```](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/FIN/FIN.png).
 
@@ -101,13 +101,13 @@ Si il y a [cas d'erreur](https://github.com/yatsuZ/B2BR/blob/main/image/Installa
 [Entrer le mot de passe de cryptage quevous avez mis.](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/FIN/cryptage_entrer.png)
 [Votre login ou root et mettre le mot de passe qui correspond.](https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/FIN/login.png)
 
-A present, verifions le partitionement et que cela correspond bien avec ce que veut le sujet.
+A présent, vérifions le partitionnement et que cela correspond bien avec ce que veut le sujet.
 
 ```bash
 lsblk
 ```
 
-resultat :
+résultat :
 <img src="https://github.com/yatsuZ/B2BR/blob/main/image/Installation_image/FIN/lsblk.png" alt="Resultat lsblk">
 
 ---
@@ -117,7 +117,7 @@ resultat :
 Ce projet fut inspirais par 🥁🥁 [mcombeau](https://github.com/mcombeau/Born2beroot) GROCE DEDICACE😉.
 
 Et je remercie :
-[Bam](https://github.com/mozaBit) et [Kuro](https://github.com/kvroooo) pour leur aide à la redaction.
+[Bam](https://github.com/mozaBit) et [Kuro](https://github.com/kvroooo) pour leur aide à la rédaction.
 
 et ce fut aussi réalisé par MOI !!! :smiley:
 
@@ -131,3 +131,6 @@ et ce fut aussi réalisé par MOI !!! :smiley:
 | E-mail42📩    | yzaoui@student.42.fr                                                 |
 | Linkdin👨‍💻     | [Yassine Zaoui](https://www.linkedin.com/in/yassine-zaoui-23b005229/)|
 | Instagram📸   | [@yatsu__officiel](https://www.instagram.com/yatsu__officiel/)       |
+
+
+

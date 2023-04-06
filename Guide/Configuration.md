@@ -1,13 +1,13 @@
-# Fin d'instalation début de Configuration
+# Fin d'installation début de Configuration
 
 Avec ce guide nous ferons la mise en place des services:
 
-0. Intallation de service qui m'ont été utile.
+0. Installation de service qui m'ont été utile.
 1. sudo
 2. UFW
 3. SSH
 4. Mettre une politique de mot de passe fort
-5. Créer un script qui s'executera automatiquement.
+5. Créer un script qui s'exécutera automatiquement.
 
 Si vous voulez savoir comment installer une VM, une partition etc suivez [ce guide.](https://github.com/yatsuZ/B2BR/blob/main/Guide/Installation.md)
 
@@ -21,7 +21,7 @@ apt update
 apt upgrade
 ```
 
-> avant chaque installation, pour mettre la jour les paquets que vous avez deja.
+> avant chaque installation, pour mettre à jour les paquets que vous avez déjà.
 
 ## Installation de service utile
 
@@ -32,10 +32,10 @@ apt-get install vim
 ```
 
 Et je me suis fais un fichier [.vimrc](https://github.com/yatsuZ/B2BR/blob/main/.vimrc) pour le root et l'utilisateur pour avoir un code couleur vim et pour que je sois plus à l'aise.
-> .vimrc est un fichier pour configurer votre editeur de texte vim.
+> .vimrc est un fichier pour configurer votre éditeur de texte vim.
 > placez votre .vimrc aux /~ de votre root et utilisateur.
 
-et j'installe une librairie pour que je puisse avoir une autocompletation
+et j'installe une librairie pour que je puisse avoir une autocompletion
 
 ```bash
 apt-get install bash-completion
@@ -48,7 +48,7 @@ vim ~/.bashrc
 ```
 
 et rajouter cette ligne à la fin du fichier :
-> Astuce apuyez sur G quand vous êtes sur vim pour dirrectement aller à la fin de votre fichier.
+> Astuce appuyez sur G quand vous êtes sur vim pour directement aller à la fin de votre fichier.
 
 ```bash
 if [ -f ~/.bash_aliases ]; then
@@ -62,7 +62,7 @@ Dans le sujet on nous dit :
 Puisqu'il s'agit de mettre en place un serveur, vous installerez le minimum de services. Pour cette raison, une interface graphique n'est d'aucune utilité ici. Il est donc interdit d'installer X.org ou tout autre serveur graphique équivalent. Sinon, votre note sera de 0 :/.
 ```
 
-Mon interpretation est qu'installer des service qui ne prend pas trop d'espace, qui n'est pas une interface graphique et qui est utile pour nous et totallement légitme à partir du moment que l'on sait pourquoi on l'installe.
+Mon interprétation est qu'installer des services qui ne prend pas trop d'espace, qui n'est pas une interface graphique et qui est utile pour nous et totalement légitime à partir du moment que l'on sait pourquoi on l'installe.
 
 FIN des outils que j'ai installé.
 

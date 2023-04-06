@@ -12,7 +12,7 @@ Le projet 42 Born2beroot nous apprend à installer et configurer une machine vir
 
 Github Born2beroot Debian guide:
 
-1. L'Instalation :
+1. L'Installation  :
 
 * [Avec commentaire et explication.](https://github.com/yatsuZ/B2BR/blob/main/Guide/Installation.md)
 
@@ -37,13 +37,13 @@ En ce qui concerne le projet B2BR, c'est un projet qui nous permet de découvrir
 3. Faites une feuille de récapitulation pour vous-même pour vous rappeler les étapes que vous avez effectuées.
 (*C'est pour cette raison que je crée se Git :wink:.*)
 
-4. Je conseil tres fortement de travaillier en group et de ne pas rester seul. Seul on est plus rapide mais à plusieurs on va plus loin mdr.
+4. Je conseil très fortement de travailler  en groupe et de ne pas rester seul. Seul on est plus rapide mais à plusieurs on va plus loin mdr.
 
-Bonne lecture pour ceux qui decouvrent :smile:.
+Bonne lecture pour ceux qui découvrent :smile:.
 
 ---
 
-## Resultat
+## Résultat
 
 <p align="center">
   <img src="https://github.com/yatsuZ/B2BR/blob/main/image/Succes/succesB2BR.png" alt="Born2beroot Note 3 tentatives au bout de la troisième tentative 100%"/>
@@ -67,16 +67,16 @@ Grade: 100%... au bout de la 3ème tentative ;-; &#x1F622;
 
 ## Ce que pouvez faire
 
-Si vous voyez des erreurs par rapport au github que ce soit, orthographes manipulation ou autre n'hésité pas de me faire part du problème (concernant le github bien sûr). En me contactant.
+Si vous voyez des erreurs par rapport au github que ce soit, orthographes manipulation ou autre n'hésitez pas de me faire part du problème (concernant le github bien sûr). En me contactant.
 
-Si vous avez aimé mon travail, vous pouvez mètre une étoile ou un like ou message ça fera toujours plaisir et JE VOUS REMERCIE D'AVOIR LU CE GIT :D.
+Si vous avez aimé mon travail, vous pouvez mettre une étoile ou un like ou message ça fera toujours plaisir et JE VOUS REMERCIE D'AVOIR LU CE GIT :D.
 
 ## Auteur ->
 
 Ce projet fut inspirais par 🥁🥁 [mcombeau](https://github.com/mcombeau/Born2beroot) GROCE DEDICACE😉.
 
 Et je remercie :
-[Bam](https://github.com/mozaBit) et [Kuro](https://github.com/kvroooo) pour leur aide à la redaction.
+[Bam](https://github.com/mozaBit) et [Kuro](https://github.com/kvroooo) pour leur aide à la rédaction.
 
 et ce fut aussi réalisé par MOI !!! :smiley:
 

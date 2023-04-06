@@ -6,7 +6,44 @@
 
 Le projet 42 Born2beroot nous apprend à installer et configurer une machine virtuelle et explore les bases de l'administration système. Nous apprendrons les schémas de partitionnement, LVM, les protocoles de ligne de commande tels que SSH, la virtualisation, la sécurité du système grâce à sudo, les pare-feux et les politiques de mot de passe.
 
-## Fin
+---
+
+## Guide
+
+Github Born2beroot Debian guide:
+
+1. L'Instalation :
+
+* [Avec commentaire et explication.](https://github.com/yatsuZ/B2BR/blob/main/Guide/Installation.md)
+
+* [Avec le minimum de Texte pour aller droit à l'essenciel.](https://github.com/yatsuZ/B2BR/blob/main/Guide/Installation_NoComment.md).
+
+2. La Configuration :
+
+* [Configuration avec commentaire et explication.](https://github.com/yatsuZ/B2BR/blob/main/Guide/Configuration.md)
+
+* [Avec le minimum de Texte pour aller droit à l'essenciel](https://github.com/yatsuZ/B2BR/blob/main/Guide/Configuration_NoComment.md)
+
+## Conseil
+
+En ce qui concerne le projet B2BR, c'est un projet qui nous permet de découvrir les machines virtuelles et qui demande de faire des recherches, ce qui peut être fastidieux pour ceux qui n'apprécient pas l'infra, les VM etc (ce qui est mon cas (J'AIME LE DEV:heart:)). Voici mes conseils :
+
+1. Prenez des snapshots pour pouvoir revenir en arrière en cas d'erreur:warning:.
+(*C'est comme un point de contrôle qui vous permet de sauvegarder votre travail et de revenir en arrière en cas d'erreurs. Mais cela consomme beaucoup d'espace.*)
+
+2. Faites attention de ne pas supprimer votre machine virtuelle et assurez-vous de la placer correctement.
+*(Cela m'est arrivé plusieurs fois :skull::skull:).*
+
+3. Faites une feuille de récapitulation pour vous-même pour vous rappeler les étapes que vous avez effectuées.
+(*C'est pour cette raison que je crée se Git :wink:.*)
+
+4. Je conseil tres fortement de travaillier en group et de ne pas rester seul. Seul on est plus rapide mais à plusieurs on va plus loin mdr.
+
+Bonne lecture pour ceux qui decouvrent :smile:.
+
+---
+
+## Resultat
 
 <p align="center">
   <img src="https://github.com/yatsuZ/B2BR/blob/main/image/Succes/succesB2BR.png" alt="Born2beroot Note 3 tentatives au bout de la troisième tentative 100%"/>
@@ -25,38 +62,6 @@ Grade: 100%... au bout de la 3ème tentative ;-; &#x1F622;
 * [Debian](https://www.debian.org/distrib/netinst) (je l'ai fait avec la version <strong>11.6</strong>).
 * Espace disque libre suffisant. (Conseil : faire dans le dossier sgroinfre)
 
-## Conseil
-
-En ce qui concerne le projet B2BR, c'est un projet qui nous permet de découvrir les machines virtuelles et qui demande de faire des recherches, ce qui peut être fastidieux pour ceux qui n'apprécient pas l'infra, les VM etc (ce qui est mon cas (J'AIME LE DEV:heart:)). Voici mes conseils :
-
-1. Prenez des snapshots pour pouvoir revenir en arrière en cas d'erreur:warning:.
-(*C'est comme un point de contrôle qui vous permet de sauvegarder votre travail et de revenir en arrière en cas d'erreurs. Mais cela consomme beaucoup d'espace.*)
-
-2. Faites attention de ne pas supprimer votre machine virtuelle et assurez-vous de la placer correctement.
-*(Cela m'est arrivé plusieurs fois :skull::skull:).*
-
-3. Faites une feuille de récapitulation pour vous-même pour vous rappeler les étapes que vous avez effectuées.
-(*C'est pour cette raison que je crée se Git :wink:.*)
-
-Bonne lecture pour ceux qui decouvrent :smile:.
-
----
-
-## Guide
-
-Github Born2beroot Debian guide:
-
-1. L'Instalation :
-
-* [Avec commentaire et explication.](https://github.com/yatsuZ/B2BR/blob/main/Guide/Installation.md)
-
-* [Avec le minimum de Texte pour aller droit à l'essenciel.](https://github.com/yatsuZ/B2BR/blob/main/Guide/Installation_NoComment.md).
-
-2. La Configuration :
-
-* [Configuration avec commentaire et explication.](https://github.com/yatsuZ/B2BR/blob/main/Guide/Configuration.md)
-
-* [Avec le minimum de Texte pour aller droit à l'essenciel](https://github.com/yatsuZ/B2BR/blob/main/Guide/Configuration_NoComment.md)
 
 ---
 
